@@ -1,0 +1,11 @@
+{
+  "name": "tweetchan",
+  "version": "1.0",
+  "description": "Anonymize your twitter feed",
+  "permissions": ["tabs", "*://*.twitter.com.com/*"],
+  "content_scripts": [{
+    "js": ["wordlist.js", "anonymize.js"],
+    "matches": ["*://*.twitter.com/*"]
+  }],
+  "manifest_version": 2
+}

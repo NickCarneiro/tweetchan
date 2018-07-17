@@ -1,0 +1,9 @@
+.idea/
+*.iml
+.DS_Store
+vendor/
+node_modules/
+*.swp
+*.swo
+npm-debug.log
+
