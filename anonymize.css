@@ -3,6 +3,7 @@ body.anon-enabled .username,
 body.anon-enabled .fullname,
 body.anon-enabled .QuoteTweet-fullname,
 body.anon-enabled .ProfileTweet-actionCount,
+body.anon-enabled .avatar--circular,
 body.anon-enabled .ProfileTweet-actionCountForPresentation {
   display: none !important;
 }
