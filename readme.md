@@ -1,8 +1,9 @@
 A chrome extension that
 
 - Anonymizes tweets
-- Removes distractions like moments and follow recommendations
+- Hides lies and retweets
 - Can be toggled on/off with `ctrl-shift-f` on Linux and `alt-f` on Mac
+- Removes distractions like moments and follow recommendations
 
 #Screenshot
 
