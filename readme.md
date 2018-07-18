@@ -23,3 +23,7 @@ Profile pictures with alpha transparency are still somewhat visible. This seems 
 FOUC on initial page load. Won't fix, but please send a PR.
 
 Tested in conjunction with uBlock Origin. I recommend it.
+
+# Maintenance
+
+This project is unmaintained. Want to take over? Let me know!
