@@ -5,7 +5,7 @@ A chrome extension that
 - Can be toggled on/off with `ctrl-shift-f` on Linux and `alt-f` on Mac
 - Removes distractions like moments and follow recommendations
 
-#Screenshot
+# Screenshot
 
 ![Alt text](/anontweets.png?raw=true "Screenshot of anonymized tweets")
 
