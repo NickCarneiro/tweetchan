@@ -4,7 +4,7 @@
   "description": "Anonymize your twitter feed",
   "permissions": ["tabs", "*://*.twitter.com/*"],
   "content_scripts": [{
-    "js": ["wordlist.js", "anonymize.js"],
+    "js": ["anonymize.js"],
     "css": ["anonymize.css"],
     "matches": ["https://twitter.com/"]
   }],
