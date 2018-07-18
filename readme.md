@@ -2,7 +2,7 @@
 Tweetchan is a chrome extension that:
 
 - Anonymizes tweets
-- Hides lies and retweets
+- Hides like counts and retweet counts
 - Can be toggled on/off with `ctrl-shift-f` on Linux and `alt-f` on Mac
 - Removes distractions like moments and follow recommendations
 
