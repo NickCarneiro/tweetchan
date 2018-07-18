@@ -1,5 +1,5 @@
 # Description
-Tweetchan is chrome extension that:
+Tweetchan is a chrome extension that:
 
 - Anonymizes tweets
 - Hides lies and retweets
