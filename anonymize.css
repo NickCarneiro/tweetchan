@@ -1,0 +1,30 @@
+/* hide names */
+body.anon-enabled .username, .fullname, .QuoteTweet-fullname {
+  display: none !important;
+}
+
+/* ide name links in retweets */
+body.anon-enabled .pretty-link.js-user-profile-link {
+  display: none !important;
+}
+
+/* hide blue checks */
+body.anon-enabled .Icon--verified:after {
+  content: none !important;
+}
+
+/* hide profile pics */
+body.anon-enabled .avatar {
+  filter: brightness(0) !important;
+}
+
+/* spacer between username and date */
+body.anon-enabled .tweet .time:before {
+  content: "" !important;
+}
+
+/* hide other useless page elements */
+.wtf-module, .dashboard-right, .trends, .moments {
+  display: none !important;
+}
+
