@@ -1,7 +1,7 @@
 {
   "name": "tweetchan",
   "version": "1.0",
-  "description": "Anonymize your twitter feed",
+  "description": "Redact names, usernames, like counts, and retweet counts from your Twitter feed",
   "permissions": ["tabs", "*://*.twitter.com/*"],
   "content_scripts": [{
     "js": ["anonymize.js"],
