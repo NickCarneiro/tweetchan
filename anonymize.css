@@ -1,14 +1,22 @@
-/* hide names */
-body.anon-enabled .username,
+/* redact names */
 body.anon-enabled .fullname,
 body.anon-enabled .QuoteTweet-fullname,
 body.anon-enabled .ProfileTweet-actionCount,
-body.anon-enabled .avatar--circular,
-body.anon-enabled .ProfileTweet-actionCountForPresentation {
+body.anon-enabled .tweet-context.with-icn {
+  /*filter: brightness(0) !important;*/
+  /*background: #000 !important;*/
+  visibility: hidden;
+}
+
+/* do not render the full name and username block at the top of the tweet
+   in order to keep the timestamp left aligned
+ */
+body.anon-enabled .FullNameGroup, body.anon-enabled .username.u-dir.u-textTruncate  {
   display: none !important;
 }
 
-/* ide name links in retweets */
+/* hide name links in retweets */
+body.anon-enabled .ProfileTweet-actionCountForPresentation,
 body.anon-enabled .pretty-link.js-user-profile-link {
   display: none !important;
 }
@@ -17,8 +25,13 @@ body.anon-enabled .pretty-link.js-user-profile-link {
 body.anon-enabled .Icon--verified:after {
   content: none !important;
 }
+/* hide blue check artifact that shows up in night mode */
+body.anon-enabled .Icon--verified:before {
+  content: none !important;
+}
 
 /* hide profile pics */
+body.anon-enabled .avatar--circular,
 body.anon-enabled .avatar {
   filter: brightness(0) !important;
 }
